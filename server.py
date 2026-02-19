@@ -6,6 +6,7 @@ from flask_cors import CORS
 import os
 
 app = Flask(__name__)
+# Sets up CORS policy set allowing requests to any domain (not just host of webpage)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 

@@ -1,4 +1,7 @@
+torch
+transformers
 Flask
 Flask_Cors
 openai
 requests
+json
